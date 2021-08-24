@@ -1,1 +1,1 @@
-# seoultech-paper-text-doc2vec
+# seoultech paper text-doc2vec
