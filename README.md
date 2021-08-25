@@ -21,6 +21,17 @@
 - --model : string, 저장된 doc2vec 모델의 path를 불러옴 
 - --save_model_name : string : 학습 후 모델 저장 시, 저장할 모델의 이름을 지정
 
+### 실행 예시
+
+- 데이터 : data폴더 안의 2019-2020.csv파일
+- 파라미터 : doc2vec_parameter.txt 파일
+- 사전 학습 모델 : models 폴더 안의 210825_doc2vec_512.model
+
+1. 모델 학습 없이 사전 학습된 모델만을 이용해서 텍스트를 임베딩 하는 경우
+`python main.py --data data/2019-2020.csv --parameter doc2vec_parameter.txt --model models/210825_doc2vec_512.model --mode embedding`
+
+2. 모델 학습과 동시에 텍스트 임베딩을 진행하려는 경우 (이때 학습된 모델은 210825_doc2vec.model로 저장하고자함)
+`python main.py --data data/2019-2020.csv --parameter doc2vec_parameter.txt --save_model_name models/210825_doc2vec.model`
 
 
 
