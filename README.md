@@ -1,4 +1,4 @@
-# SEOULTECH 교직원 연구 실적 텍스트 데이터 분석<br></br>
+# SEOULTECH 교직원 연구 실적 텍스트 데이터 분석<br>
 
 ### 필요 라이브러리
 - nltk
