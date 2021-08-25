@@ -19,7 +19,7 @@
   - train : doc2vec 모델의 학습 및 모델 저장만을 진행, --save_model_name 파서 필요
   - embedding : 저장된 doc2vec 모델을 불러와 텍스트를 임베딩을 진행, --model 파서 필요 
 - --model : string, 저장된 doc2vec 모델의 path를 불러옴 
-- --save_model_name : string : 학습 후 모델 저장 시, 저장할 모델의 이름을 지정
+- --save_model_name : string : 학습 후 모델 저장 시, 저장할 모델의 이름을 지정<br></br>
 
 ### 실행 예시
 
