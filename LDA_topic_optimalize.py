@@ -1,3 +1,4 @@
+
 from tqdm import tqdm
 from gensim.models.ldamodel import LdaModel 
 from gensim.models.callbacks import CoherenceMetric 
@@ -48,7 +49,7 @@ def perplexity_optimal_number_of_topics(dictionary, corpus, processed_data):
 # 실행
 
 #preprocessing 완료된 document pickle 파일 열기
-with open('data/preprocessing_data(4046)_lemma.pickle',"rb") as fr:
+with open('C:/Users/user/Documents/GitHub/SeoulTech-Research-Frontier/data/preprocessing_data(4046).pickle',"rb") as fr:
           tokenized_doc = pickle.load(fr)
           
  # 출현빈도가 적거나 자주 등장하는 단어는 제거 
