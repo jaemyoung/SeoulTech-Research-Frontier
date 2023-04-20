@@ -735,7 +735,7 @@ factors
 fail
 failure
 fall
-false
+FALSE
 falsified
 falsify
 familiar
@@ -1800,7 +1800,7 @@ trial
 trigger
 triggered
 triggering
-true
+TRUE
 turn
 two
 type
